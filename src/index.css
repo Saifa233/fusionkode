@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --color-very-blue: #0892d0;
+  --color-very-purple: #4b0082;
+  --color-jasmine: #f8de7e;
+  --color-jungleGreen: #29ab87;
+  --color-saphireBlue: #0f52ba;
+  --color-cyberyellow: #FFD300;
+  --color-neonblue: #4d4dff;
+  --color-majesticblue: #6050dc;
+  --color-charcoal: #0D0D0D;
+}
+
+.font-inter {
+  font-family: 'Inter';
+}
+
+.font-geist {
+  font-family: 'Geist';
+}
