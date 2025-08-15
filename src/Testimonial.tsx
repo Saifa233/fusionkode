@@ -1,6 +1,6 @@
 export default function Testimonial(){
     return(
-        <div id="testimonial" className="bg-black min-h-screen">
+        <div id="testimonial" className="bg-hero min-h-screen">
             <section className="text-white">
                 <div className="mx-auto flex flex-col items-center pt-10">
                     <h2 className="bg-gradient-to-r from-blue-600 via-blue-700 to-purple-800 bg-clip-text text-transparent font-geist text-4xl font-semibold">Testimonial</h2>
