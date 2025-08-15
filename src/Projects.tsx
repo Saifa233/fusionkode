@@ -4,7 +4,7 @@ export default function Projects(){
         <div id="projects" className="bg-black min-h-screen">
             <section className="text-white">
                 <div className="mx-auto flex flex-col items-center pt-10">
-                    <h2 className="font-geist text-4xl font-normal">Our Work</h2>
+                    <h2 className="bg-gradient-to-r from-blue-600 via-blue-700 to-purple-800 bg-clip-text text-transparent font-geist text-4xl font-semibold">Our Work</h2>
                     <div className="flex pt-16 gap-32 text-black text-center w-full justify-center">
                         <div onClick={() => window.open("https://cloudconda.com", "_blank")} className="cursor-pointer bg-white rounded-lg w-[300px] h-[200px]"><h2 className="font-geist text-2xl font-normal pt-4"><span>Cloudconda</span></h2></div>
                         <div onClick={() => window.open("https://potential-rose.vercel.app/", "_blank")} className="cursor-pointer bg-white rounded-lg w-[300px] h-[200px]"><h2 className="font-geist text-2xl font-normal pt-4"><span>Potential</span></h2></div>

@@ -3,7 +3,7 @@ export default function Features(){
         <div id="features" className="bg-black min-h-screen">
             <section className="text-white">
                 <div className="mx-auto flex flex-col items-center pt-10">
-                    <h2 className="font-geist text-4xl font-normal">Our Expertise</h2>
+                    <h2 className="bg-gradient-to-r from-blue-600 via-blue-700 to-purple-800 bg-clip-text text-transparent font-geist text-4xl font-semibold">Our Expertise</h2>
                     <div className="flex pt-16 gap-16 text-black text-center">
                         <div className="rounded-lg w-[300px] h-[200px] bg-white"><h2 className="font-geist text-2xl font-normal pt-4">Data Scraping</h2></div>
                         <div className="bg-white rounded-lg w-[300px] h-[200px]"><h2 className="font-geist text-2xl font-normal pt-4">Web Development</h2></div>

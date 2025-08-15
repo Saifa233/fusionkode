@@ -8,8 +8,8 @@ export default function Hero() {
         <div className='bg-black min-h-screen'>
         <section className="text-white flex flex-col gap-32 p-32 relative">
           <div className="flex">
-            <div className="absolute top-0 mt-8">
-              <h2 className="font-geist text-2xl font-normal">FusionKode</h2>
+            <div className="absolute top-0 mt-7">
+              <img src='/logo2.png' alt="logo" className="w-50 h-12" />
             </div>
             
             <div className='flex items-center ml-120'>
@@ -25,7 +25,7 @@ export default function Hero() {
   
           <div className="flex justify-between">
             <div className="flex flex-col gap-4">
-              <h1 className="font-geist text-8xl font-normal max-w-4xl leading-tighter tracking-tighter">We Design. We <span className="text-blue-500">Code</span>. We Deliver.</h1>
+              <h1 className="font-geist text-8xl font-normal max-w-4xl leading-tighter tracking-tighter">We Design. We <span className="bg-gradient-to-r from-blue-600 via-blue-700 to-purple-800 bg-clip-text text-transparent">Code</span> We Deliver.</h1>
                 <p className="font-geist text-2xl text-slate-300 max-w-3xl tracking-tight leading-tight">At FusionKode, we craft stunning, high-performance websites that blend pixel-perfect Figma designs with pure, clean code for unmatched speed, security, and user experience.</p>
                 <div className="flex gap-4 mt-8">
                 <button onClick={() => scrollToSection('pricing')} className="cursor-pointer bg-gradient-to-r from-blue-600 via-blue-700 to-purple-800 text-white text-xl px-12 py-3 rounded-md">Get Started</button>
