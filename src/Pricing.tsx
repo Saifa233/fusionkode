@@ -1,13 +1,13 @@
 export default function Pricing(){
     return(
-        <div id="pricing" className="bg-hero min-h-screen">
+        <div id="pricing" className="bg-gradient-to-t from-purplish to-hero  min-h-screen">
             <section className="text-white">
                 <div className="mx-auto flex flex-col items-center pt-10">
-                    <h2 className="bg-gradient-to-r from-blue-600 via-blue-700 to-purple-800 bg-clip-text text-transparent font-geist text-4xl font-semibold">Pricing</h2>
+                    <h2 className="bg-purplish bg-clip-text text-transparent font-geist text-4xl font-semibold">Pricing</h2>
                     <div className="flex gap-32 pt-36 text-black text-center">
                         <div className="rounded-3xl w-[360px] h-full p-8 bg-white">
                             <h2 className="font-geist text-3xl font-bold pt-4">
-                                <span className="bg-gradient-to-r from-blue-600 via-blue-700 to-purple-800 bg-clip-text text-transparent">Basic</span>
+                                <span className="bg-black bg-clip-text text-transparent">Basic</span>
                                 <p className="font-geist text-lg text-black mt-8">For small businesses and startups</p>
                                 <ul className="list-disc list-inside text-lg mt-8">
                                     <li>1-5 Pages Custom Website</li>
@@ -19,7 +19,7 @@ export default function Pricing(){
                         </div>
                         <div className="rounded-3xl w-[360px] h-full p-8 bg-white">
                             <h2 className="font-geist text-3xl font-bold pt-4">
-                            <span className="bg-gradient-to-r from-blue-600 via-blue-700 to-purple-800 bg-clip-text text-transparent">Pro</span>
+                            <span className="bg-black bg-clip-text text-transparent">Pro</span>
                                 <p className="font-geist text-lg text-black mt-8">For growing businesses & startups</p>
                                 <ul className="list-disc list-inside text-lg mt-8">
                                     <li>5-7 Pages Custom Website</li>
@@ -33,7 +33,7 @@ export default function Pricing(){
                         </div>
                         <div className="rounded-3xl w-[360px] h-full p-8 bg-white">
                             <h2 className="font-geist text-3xl font-bold pt-4">
-                                <span className="bg-gradient-to-r from-blue-600 via-blue-700 to-purple-800 bg-clip-text text-transparent">Enterprise</span>
+                                <span className="bg-black bg-clip-text text-transparent">Enterprise</span>
                                 <p className="font-geist text-lg text-black mt-8">Full-scale projects & advanced systems</p>
                                 <ul className="list-disc list-inside text-lg mt-8">
                                     <li>10-12 Pages Custom Website</li>

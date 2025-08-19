@@ -1,63 +1,6 @@
+@theme {
+  --color-purplish: #F53844;
+  --color-hero: #000000;
+}
+
 @import "tailwindcss";
-
-:root {
-  --color-very-blue: #0892d0;
-  --color-very-purple: #4b0082;
-  --color-jasmine: #f8de7e;
-  --color-jungleGreen: #29ab87;
-  --color-saphireBlue: #0f52ba;
-  --color-cyberyellow: #FFD300;
-  --color-neonblue: #4d4dff;
-  --color-majesticblue: #6050dc;
-  --color-charcoal: #0D0D0D;
-  --color-hero: #0a0a0a;
-}
-
-.font-inter {
-  font-family: 'Inter';
-}
-
-.font-geist {
-  font-family: 'Geist';
-}
-
-/* Example usage classes for your custom colors */
-.bg-hero {
-  background-color: var(--color-hero);
-}
-
-.bg-very-blue {
-  background-color: var(--color-very-blue);
-}
-
-.bg-very-purple {
-  background-color: var(--color-very-purple);
-}
-
-.bg-jasmine {
-  background-color: var(--color-jasmine);
-}
-
-.bg-jungle-green {
-  background-color: var(--color-jungleGreen);
-}
-
-.bg-saphire-blue {
-  background-color: var(--color-saphireBlue);
-}
-
-.bg-cyber-yellow {
-  background-color: var(--color-cyberyellow);
-}
-
-.bg-neon-blue {
-  background-color: var(--color-neonblue);
-}
-
-.bg-majestic-blue {
-  background-color: var(--color-majesticblue);
-}
-
-.bg-charcoal {
-  background-color: var(--color-charcoal);
-}
