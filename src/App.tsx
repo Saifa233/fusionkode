@@ -3,6 +3,7 @@ import Features from "./Features"
 import Projects from "./Projects"
 import Pricing from "./Pricing"
 import Testimonial from "./Testimonial"
+import Footer from "./Footer"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Projects />
       <Testimonial />
       <Pricing />
+      <Footer />
     </>
   )
 }
