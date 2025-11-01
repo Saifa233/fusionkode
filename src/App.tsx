@@ -1,18 +1,20 @@
 import Hero from "./Hero"
-import Features from "./Features"
+import About from "./About"
 import Projects from "./Projects"
 import Pricing from "./Pricing"
-import Testimonial from "./Testimonial"
+import Features from "./Features"
+import Contact from "./Contact"
 import Footer from "./Footer"
 
 function App() {
   return (
     <>
       <Hero />
-      <Features />
+      <About />
       <Projects />
-      <Testimonial />
+      <Features />
       <Pricing />
+      <Contact />
       <Footer />
     </>
   )
