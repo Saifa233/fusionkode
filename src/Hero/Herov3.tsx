@@ -1,4 +1,3 @@
-import { useState } from 'react'
 
 export default function HeroV3() {
     const scrollToSection = (id: string) => {
