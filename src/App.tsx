@@ -1,4 +1,4 @@
-import Hero from "./Hero"
+import Hero from "./Hero/Herov3"
 import About from "./About"
 import Projects from "./Projects"
 import Pricing from "./Pricing"
